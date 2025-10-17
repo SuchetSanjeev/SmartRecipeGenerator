@@ -79,36 +79,45 @@ cd recipeGen-main
 venv\Scripts\activate
 uvicorn main:app --reload
 ```
-### 📦 Directory Structure
-SmartRecipeGenerator/
+## 📦 Directory Structure
+<details> <summary>📁 Click to expand the copyable version</summary>
+recipeGen-main/
 │
 ├── api/
-│   ├── __init__.py
-│   ├── api.py
-│   └── endpoints/
-│       ├── image.py
-│       ├── generative.py
-│       ├── recipes_kaggle.py
-│       └── image_generation.py
+│ ├── init.py
+│ ├── api.py
+│ └── endpoints/
+│ ├── image.py
+│ ├── generative.py
+│ ├── recipes_kaggle.py
+│ └── image_generation.py
 │
-├── services/
-│   ├── __init__.py
-│   └── imgGen.py
+├── crud/
+│ ├── init.py
+│ └── crud_recipe.py
+│
+├── db/
+│ ├── init.py
+│ └── mongodb.py
 │
 ├── models/
-│   └── __init__.py
+│ └── init.py
+│
+├── services/
+│ ├── init.py
+│ └── imgGen.py
 │
 ├── main.py
 ├── requirements.txt
 └── README.md
+</details>
 
 ### 🧩 Future Scope
 
--Add multilingual recipe generation
--Enable nutritional value prediction
--Enhance image-to-ingredient accuracy
--Add voice-based recipe instructions
+Add multilingual recipe generation
+Enable nutritional value prediction
+Enhance image-to-ingredient accuracy
+Add voice-based recipe instructions
 
-**
 ### 🏁 Conclusion
--This project demonstrates how AI can assist in food recognition and recipe generation through an efficient and explainable pipeline using FastAPI and deep learning models.
+This project demonstrates how AI can assist in food recognition and recipe generation through an efficient and explainable pipeline using FastAPI and deep learning models.
