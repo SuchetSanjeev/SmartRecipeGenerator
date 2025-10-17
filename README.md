@@ -72,3 +72,43 @@ If you face issues related to fireworks.client:
 ```
 pip install fireworks-ai
 ```
+
+### Example Commands (Quick Run)
+```
+cd recipeGen-main
+venv\Scripts\activate
+uvicorn main:app --reload
+```
+### 📦 Directory Structure
+SmartRecipeGenerator/
+│
+├── api/
+│   ├── __init__.py
+│   ├── api.py
+│   └── endpoints/
+│       ├── image.py
+│       ├── generative.py
+│       ├── recipes_kaggle.py
+│       └── image_generation.py
+│
+├── services/
+│   ├── __init__.py
+│   └── imgGen.py
+│
+├── models/
+│   └── __init__.py
+│
+├── main.py
+├── requirements.txt
+└── README.md
+
+### 🧩 Future Scope
+
+-Add multilingual recipe generation
+-Enable nutritional value prediction
+-Enhance image-to-ingredient accuracy
+-Add voice-based recipe instructions
+
+**
+### 🏁 Conclusion
+-This project demonstrates how AI can assist in food recognition and recipe generation through an efficient and explainable pipeline using FastAPI and deep learning models.
