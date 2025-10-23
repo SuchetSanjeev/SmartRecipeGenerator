@@ -2,6 +2,16 @@
 
 This project is a **FastAPI-based Smart Recipe Generator** that predicts ingredients from an image and generates corresponding recipes using AI models.  
 
+## Project link : https://lovable-ai-kitchen-86.vercel.app/
+
+<img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/b839b6ad-1c44-45d0-9845-5329b2eb7fec" />
+<img width="500" height="700" alt="image" src="https://github.com/user-attachments/assets/f9af619d-4fb6-4241-b3a9-38fc5357ee9b" />
+<img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/d9c5724c-9f85-4966-a3b8-d13a1d86bc65" />
+<img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/ae3a9d47-1c9d-442b-96f7-e004ae68be82" />
+<img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/d0f89ad2-df97-49b4-b771-33f6846cf43e" />
+<img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/f94d0235-7101-4b07-80d7-d01fbcb3b0c2" />
+
+
 ---
 
 ## 🚀 Features
